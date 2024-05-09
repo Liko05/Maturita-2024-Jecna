@@ -6,23 +6,17 @@
                  name="Maturita"
                  start-page="Home.md">
 
-<<<<<<< Updated upstream
-=======
     <toc-element topic="Questions-PV.md"/>
     <toc-element topic="czech.md">
         <toc-element topic="Romeo-a-Julie.md"/>
     </toc-element>
     <toc-element topic="Teorie.md"/>
->>>>>>> Stashed changes
+
     <toc-element topic="Home.md"/>
     <toc-element topic="Questions.md">
         <toc-element accepts-web-file-names-ref="40254207" topic="1.md" toc-title="IPv4">
         </toc-element>
         <toc-element topic="IPv6.md" toc-title="IPv6"/>
     </toc-element>
-<<<<<<< Updated upstream
-    <toc-element topic="Questions-PV.md"/>
-    <toc-element topic="czech.md"/>
-=======
->>>>>>> Stashed changes
+
 </instance-profile>
