@@ -10,4 +10,12 @@
         <description>Created after removal of "About PSS" from PSS</description>
         <accepts>pss.html</accepts>
     </rule>
+    <rule id="131fb69a">
+        <description>Created after removal of "Literarni-smery" from Maturita</description>
+        <accepts>Literarni-smery.html</accepts>
+    </rule>
+    <rule id="4d297597">
+        <description>Created after removal of "Teorie" from Maturita</description>
+        <accepts>Literarni-druhy.html</accepts>
+    </rule>
 </rules>
