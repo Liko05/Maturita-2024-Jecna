@@ -15,3 +15,4 @@
 
 1. [IPv4, adresování - formát paketu, maska, podsíť. porovnání s IPv6](1.md)
 2. [IPv6, adresování - formát paketu, prefixy, adresace v lokání síti, porovnání s IPv4](IPv6.md)
+3. [Základní síťové technologie LAN, MAN, WAN a komunikační protokoly. Znalost funkce aktivních prvků - router, switch. MAC adresa, IP adresa, ARP, směrování](LAN-MAN-WAN.md)
