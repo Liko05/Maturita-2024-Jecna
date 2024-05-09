@@ -14,3 +14,4 @@
 ## Links
 
 1. [IPv4, adresování - formát paketu, maska, podsíť. porovnání s IPv6](1.md)
+2. [IPv6, adresování - formát paketu, prefixy, adresace v lokání síti, porovnání s IPv4](IPv6.md)

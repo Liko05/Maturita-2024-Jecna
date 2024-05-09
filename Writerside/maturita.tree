@@ -8,7 +8,9 @@
 
     <toc-element topic="Home.md"/>
     <toc-element topic="Questions.md">
-        <toc-element accepts-web-file-names-ref="40254207" topic="1.md"/>
+        <toc-element accepts-web-file-names-ref="40254207" topic="1.md" toc-title="IPv4">
+        </toc-element>
+        <toc-element topic="IPv6.md" toc-title="IPv6"/>
     </toc-element>
     <toc-element topic="Questions-PV.md"/>
     <toc-element topic="czech.md"/>
