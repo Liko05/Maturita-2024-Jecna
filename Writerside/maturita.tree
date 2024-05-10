@@ -9,6 +9,7 @@
     <toc-element topic="Home.md"/>
     <toc-element topic="Questions-PV.md"/>
     <toc-element topic="czech.md">
+        <toc-element topic="Zkroceni-zle-zeny.md"/>
         <toc-element topic="Struktura-zkousky.md"/>
         <toc-element topic="Teorie.md"/>
         <toc-element topic="Romeo-a-Julie.md"/>
