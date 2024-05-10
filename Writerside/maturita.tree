@@ -9,6 +9,13 @@
     <toc-element topic="Home.md"/>
     <toc-element topic="Questions-PV.md"/>
     <toc-element topic="czech.md">
+        <toc-element topic="Starec-a-more.md"/>
+        <toc-element topic="Maly-princ.md"/>
+        <toc-element topic="Na-zapadni-fronte-klid.md"/>
+        <toc-element topic="Kytice.md"/>
+        <toc-element topic="Havran.md"/>
+        <toc-element topic="Revizor.md"/>
+        <toc-element topic="Oliver-Twist.md"/>
         <toc-element topic="Zkroceni-zle-zeny.md"/>
         <toc-element topic="Struktura-zkousky.md"/>
         <toc-element topic="Teorie.md"/>
