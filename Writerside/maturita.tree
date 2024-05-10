@@ -26,6 +26,7 @@
         <toc-element toc-title="SPANNING-TREE-PROTOCOL" topic="Spanning-tree-protokol-principy-použití-v-LAN-BPDU.md"/>
         <toc-element toc-title="VLAN-TRUNK-8021Q-VTP"
                      topic="VLAN-princip-použití-Trunk-porty-protokol-802-1q-VTP-technologie.md"/>
+        <toc-element toc-title="VPN" topic="VPN-principy-funkce-použití-tunely-zabezpečení.md"/>
     </toc-element>
 
 </instance-profile>

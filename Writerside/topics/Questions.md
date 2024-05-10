@@ -20,3 +20,5 @@
 5. [Základní principy Ethernetu, jeho standardy, strukturovaná kabeláž. Kategorie strukturované kabeláže, optika, kabely, konektory](ETHERNET-CABLES-STRUCTURE.md)
 6. [Statické i dynamické směrování na síti. (RIP, OSPF), konfigurace](STATIC-DYNAMIC-ROUTING-RIP-OSPF.md)
 7. [Spanning tree protokol, principy, použití v LAN, BPDU](Spanning-tree-protokol-principy-použití-v-LAN-BPDU.md)
+8. [VLAN, princip, použití. Trunk porty, protokol 802.1q, VTP technologie](VLAN-princip-použití-Trunk-porty-protokol-802-1q-VTP-technologie.md)
+9. [VPN, principy, funkce, použití, tunely, zabezpečení](VPN-principy-funkce-použití-tunely-zabezpečení.md)
