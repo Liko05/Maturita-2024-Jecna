@@ -19,6 +19,7 @@
         </toc-element>
         <toc-element topic="IPv6.md" toc-title="IPv6"/>
         <toc-element toc-title="LAN-MAN-WAN" topic="LAN-MAN-WAN.md"/>
+        <toc-element topic="OSI-TCP-IP.md" toc-title="OSI-TCP-IP"/>
     </toc-element>
 
 </instance-profile>
