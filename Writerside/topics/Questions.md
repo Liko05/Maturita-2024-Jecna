@@ -19,3 +19,4 @@
 4. [OSI model sítí, rodina protokolů TCP/IP a porovnání s OSI modelem, pojmy: rámec, paket, zapouzdření dat na jednotlivých vrstvách, spojovaná a nespojovaná služba](OSI-TCP-IP.md)
 5. [Základní principy Ethernetu, jeho standardy, strukturovaná kabeláž. Kategorie strukturované kabeláže, optika, kabely, konektory](ETHERNET-CABLES-STRUCTURE.md)
 6. [Statické i dynamické směrování na síti. (RIP, OSPF), konfigurace](STATIC-DYNAMIC-ROUTING-RIP-OSPF.md)
+7. [Spanning tree protokol, principy, použití v LAN, BPDU](Spanning-tree-protokol-principy-použití-v-LAN-BPDU.md)
