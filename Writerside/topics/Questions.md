@@ -16,3 +16,6 @@
 1. [IPv4, adresování - formát paketu, maska, podsíť. porovnání s IPv6](1.md)
 2. [IPv6, adresování - formát paketu, prefixy, adresace v lokání síti, porovnání s IPv4](IPv6.md)
 3. [Základní síťové technologie LAN, MAN, WAN a komunikační protokoly. Znalost funkce aktivních prvků - router, switch. MAC adresa, IP adresa, ARP, směrování](LAN-MAN-WAN.md)
+4. [OSI model sítí, rodina protokolů TCP/IP a porovnání s OSI modelem, pojmy: rámec, paket, zapouzdření dat na jednotlivých vrstvách, spojovaná a nespojovaná služba](OSI-TCP-IP.md)
+5. [Základní principy Ethernetu, jeho standardy, strukturovaná kabeláž. Kategorie strukturované kabeláže, optika, kabely, konektory](ETHERNET-CABLES-STRUCTURE.md)
+6. [Statické i dynamické směrování na síti. (RIP, OSPF), konfigurace](STATIC-DYNAMIC-ROUTING-RIP-OSPF.md)

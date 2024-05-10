@@ -20,6 +20,8 @@
         <toc-element topic="IPv6.md" toc-title="IPv6"/>
         <toc-element toc-title="LAN-MAN-WAN" topic="LAN-MAN-WAN.md"/>
         <toc-element topic="OSI-TCP-IP.md" toc-title="OSI-TCP-IP"/>
+        <toc-element topic="ETHERNET-CABLES-STRUCTURE.md" toc-title="ETHERNET-CABLES-STRUCTURE "/>
+        <toc-element toc-title="STATIC-DYNAMIC-ROUTING-RIP-OSPF" topic="STATIC-DYNAMIC-ROUTING-RIP-OSPF.md"/>
     </toc-element>
 
 </instance-profile>
