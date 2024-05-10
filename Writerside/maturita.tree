@@ -16,7 +16,6 @@
     </toc-element>
 
     <toc-element topic="Questions.md">
-        <toc-element topic="Spanning-tree-protokol-principy-použití-v-LAN-BPDU.md" toc-title="SPANNING-TREE-PROTOCOL"/>
         <toc-element accepts-web-file-names-ref="40254207" topic="1.md" toc-title="IPv4">
         </toc-element>
         <toc-element topic="IPv6.md" toc-title="IPv6"/>
@@ -24,6 +23,9 @@
         <toc-element topic="OSI-TCP-IP.md" toc-title="OSI-TCP-IP"/>
         <toc-element topic="ETHERNET-CABLES-STRUCTURE.md" toc-title="ETHERNET-CABLES-STRUCTURE "/>
         <toc-element toc-title="STATIC-DYNAMIC-ROUTING-RIP-OSPF" topic="STATIC-DYNAMIC-ROUTING-RIP-OSPF.md"/>
+        <toc-element toc-title="SPANNING-TREE-PROTOCOL" topic="Spanning-tree-protokol-principy-použití-v-LAN-BPDU.md"/>
+        <toc-element toc-title="VLAN-TRUNK-8021Q-VTP"
+                     topic="VLAN-princip-použití-Trunk-porty-protokol-802-1q-VTP-technologie.md"/>
     </toc-element>
 
 </instance-profile>
