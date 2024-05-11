@@ -40,6 +40,8 @@
         <toc-element toc-title="VLAN-TRUNK-8021Q-VTP"
                      topic="VLAN-princip-použití-Trunk-porty-protokol-802-1q-VTP-technologie.md"/>
         <toc-element toc-title="VPN" topic="VPN-principy-funkce-použití-tunely-zabezpečení.md"/>
+        <toc-element toc-title="DHCP4"
+                     topic="DHCP4-funkce-možnosti-konfigurace-rozsahy-IP-adres-dle-MAC-adresy-použití.md"/>
     </toc-element>
 
 </instance-profile>

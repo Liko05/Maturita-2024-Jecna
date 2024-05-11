@@ -22,3 +22,4 @@
 7. [Spanning tree protokol, principy, použití v LAN, BPDU](Spanning-tree-protokol-principy-použití-v-LAN-BPDU.md)
 8. [VLAN, princip, použití. Trunk porty, protokol 802.1q, VTP technologie](VLAN-princip-použití-Trunk-porty-protokol-802-1q-VTP-technologie.md)
 9. [VPN, principy, funkce, použití, tunely, zabezpečení](VPN-principy-funkce-použití-tunely-zabezpečení.md)
+10. [DHCP4 - funkce, možnosti konfigurace (rozsahy IP adres, dle MAC adresy), použití](DHCP4-funkce-možnosti-konfigurace-rozsahy-IP-adres-dle-MAC-adresy-použití.md)
