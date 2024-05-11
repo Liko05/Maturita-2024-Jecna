@@ -13,8 +13,8 @@
         <toc-element topic="Struktura-zkousky.md"/>
         <toc-element topic="Zkroceni-zle-zeny.md"/>
         <toc-element topic="Romeo-a-Julie.md"/>
-        <toc-element topic="Oliver-Twist.md"/>
         <toc-element topic="Revizor.md"/>
+        <toc-element topic="Oliver-Twist.md"/>
         <toc-element topic="Havran.md"/>
         <toc-element topic="Kytice.md"/>
         <toc-element topic="Na-zapadni-fronte-klid.md"/>
@@ -23,9 +23,14 @@
         <toc-element topic="Velky-Gatsby.md"/>
         <toc-element topic="Hlava-XXII.md"/>
         <toc-element topic="Kral-krysa.md"/>
-        <toc-element topic="451-stupnu-Fahrenheita.md"/>
         <toc-element topic="Most-pres-reku-Kwai.md"/>
-        <toc-element topic="Deset-malych-cernousku.md"/>
+        <toc-element topic="451-stupnu-Fahrenheita.md"/>
+        <toc-element topic="Deset-malych-cernousku.md">
+            <toc-element topic="Basnicka.md"/>
+        </toc-element>
+        <toc-element topic="Krysar.md"/>
+        <toc-element topic="Bylo-nas-pet.md"/>
+        <toc-element topic="Ostre-sledovane-vlaky.md"/>
     </toc-element>
 
     <toc-element topic="Questions.md">

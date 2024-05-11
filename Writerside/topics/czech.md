@@ -17,3 +17,7 @@
 - [Král krysa](Kral-krysa.md)
 - [Most přes řeku Kwai](Most-pres-reku-Kwai.md)
 - [451 stupňů Fahrenheita](451-stupnu-Fahrenheita.md)
+- [Deset malých černoušků](Deset-malych-cernousku.md)
+- [Krysař](Krysar.md)
+- [Bylo nás pět](Bylo-nas-pet.md)
+- [Ostře sledované vlaky](Ostre-sledovane-vlaky.md)

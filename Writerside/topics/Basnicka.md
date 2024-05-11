@@ -1,0 +1,22 @@
+# Basnicka
+
+- Deset malých černoušků hostil děda Vševěd,
+- jeden z nich se zakuckal, zbylo jich jen devět.
+- Devět malých černoušků chtělo sypat kosům,
+- jeden se včas nevzbudil, zbylo jich jen osm.
+- Osm malých černoušků vyšlo si hrát před dům,
+- jeden z nich se potloukal, zbylo jich jen sedm.
+- Sedm malých černoušků šlo naštípat klest,
+- jeden z nich se posekal, zbylo jich jen šest.
+- Šest malinkých černoušků chtělo vybrat med,
+- čmelák píchl jednoho, zbylo jich jen pět.   
+- Pět malinkých černoušků k soudu spolu míří,
+- jeden z nich se soudcem stal, zbyli jenom čtyři.
+- Čtyři malí černoušci nechali všech pří,
+- jeden z nich šel pasti klást, šli do světa tři.
+- Tři malincí černoušci šli ulovit lva,
+- medvěd sežral jednoho, zbyli jenom dva.
+- Dva malincí černoušci chodili dvě hodiny,
+- jeden klesl na skále, a tak zbyl jen jediný.
+- Jeden malý černoušek vztek měl na svět zrádný,
+- proto se sám oběsil – a tak nezbyl žádný.
