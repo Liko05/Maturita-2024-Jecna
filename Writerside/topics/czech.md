@@ -21,3 +21,5 @@
 - [Krysař](Krysar.md)
 - [Bylo nás pět](Bylo-nas-pet.md)
 - [Ostře sledované vlaky](Ostre-sledovane-vlaky.md)
+- [Smrt krásných srnců](Smrt-krasnych-srncu.md)
+- [Jak jsem potkal ryby](Jak-jsem-potkal-ryby.md)
