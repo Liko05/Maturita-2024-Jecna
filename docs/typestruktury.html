@@ -1,0 +1,68 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#307FFF"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex"><meta name="built-on" content="2024-05-12T03:58:29.9431015"><title>21. Typy datov&yacute;ch struktur - Pole, Spojov&yacute; seznam, Strom, Fronta, Z&aacute;sobn&iacute;k, Halda | Maturita</title><script type="application/json" id="virtual-toc-data">[{"id":"pole","level":0,"title":"Pole","anchor":"#pole"},{"id":"spojov-seznam","level":0,"title":"Spojový seznam","anchor":"#spojov-seznam"},{"id":"strom","level":0,"title":"Strom","anchor":"#strom"},{"id":"fronta","level":0,"title":"Fronta","anchor":"#fronta"},{"id":"z-sobn-k","level":0,"title":"Zásobník","anchor":"#z-sobn-k"},{"id":"halda","level":0,"title":"Halda","anchor":"#halda"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b259/app.css" rel="stylesheet"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="21. Typy datov&yacute;ch struktur - Pole, Spojov&yacute; seznam, Strom, Fronta, Z&aacute;sobn&iacute;k, Halda | Maturita"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="Maturita Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation//20.24/typestruktury.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="21. Typy datov&yacute;ch struktur - Pole, Spojov&yacute; seznam, Strom, Fronta, Z&aacute;sobn&iacute;k, Halda | Maturita"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation//20.24/typestruktury.html#webpage",
+    "url": "writerside-documentation//20.24/typestruktury.html",
+    "name": "21. Typy datov&yacute;ch struktur - Pole, Spojov&yacute; seznam, Strom, Fronta, Z&aacute;sobn&iacute;k, Halda | Maturita",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/#website",
+    "url": "writerside-documentation/",
+    "name": "Maturita Help"
+}</script><!-- End Schema.org --></head><body data-id="TypeStruktury" data-main-title="21. Typy datových struktur - Pole, Spojový seznam, Strom, Fronta, Zásobník, Halda" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs="Questions-PV.md|PV"><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Maturita 20.24 Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="TypeStruktury" id="TypeStruktury.md">21. Typy datových struktur - Pole, Spojový seznam, Strom, Fronta, Zásobník, Halda</h1><ul class="list _bullet" id="-sc4yo3_414"><li class="list__item" id="-sc4yo3_415"><p>Datov&eacute; struktury jsou z&aacute;kladn&iacute;m pojmem v programov&aacute;n&iacute;, jak jsou data uložena v paměti poč&iacute;tače</p></li><li class="list__item" id="-sc4yo3_416"><p>Z&aacute;kladn&iacute;mi datov&yacute;mi strukturami jsou pole, spojov&yacute; seznam, strom, fronta, z&aacute;sobn&iacute;k a haldy</p></li></ul><section class="chapter"><h2 id="pole" data-toc="pole">Pole</h2><ul class="list _bullet" id="-sc4yo3_417"><li class="list__item" id="-sc4yo3_418"><p>Pole je datov&aacute; struktura, kter&aacute; umožňuje ukl&aacute;d&aacute;n&iacute; v&iacute;ce prvků stejn&eacute;ho typu za sebou v paměti.</p></li><li class="list__item" id="-sc4yo3_419"><p>Prvky pole jsou indexov&aacute;ny od nuly.</p></li><li class="list__item" id="-sc4yo3_420"><p>Automaticky alokuje paměť pro v&scaron;echny prvky pole, což znamen&aacute;, že prvky lze přidat, odebrat či přesouvat za běhu programu</p></li></ul><p id="-sc4yo3_421"><span class="control" id="-sc4yo3_422">Př&iacute;klad pole:</span></p><div class="code-block" data-lang="java">
+int[] pole = new int[5];
+pole[0] = 1;
+pole[1] = 2;
+</div></section><section class="chapter"><h2 id="spojov-seznam" data-toc="spojov-seznam">Spojov&yacute; seznam</h2><ul class="list _bullet" id="-sc4yo3_424"><li class="list__item" id="-sc4yo3_425"><p>Spojov&yacute; seznam je dynamick&aacute; datov&aacute; struktura, kter&aacute; umožnuje ukl&aacute;d&aacute;n&iacute; prvků v hierarchick&eacute; struktuře. <code class="code" id="-sc4yo3_426">Hierarchick&aacute; struktura</code> znamen&aacute;, že každ&yacute; prvek seznamu obsahuje odkaz na dal&scaron;&iacute; prvek.</p></li><li class="list__item" id="-sc4yo3_427"><p>Každ&yacute; prvek spojov&eacute;ho seznamu se naz&yacute;v&aacute; <code class="code" id="-sc4yo3_428">Node</code>.</p></li><li class="list__item" id="-sc4yo3_429"><p>Spojov&yacute; seznam může b&yacute;t jednosměrn&yacute; nebo obousměrn&yacute;.</p></li><li class="list__item" id="-sc4yo3_430"><p>Jednosměrn&yacute; spojov&yacute; seznam m&aacute; každ&yacute; uzel odkaz na n&aacute;sleduj&iacute;c&iacute; uzel.</p></li><li class="list__item" id="-sc4yo3_431"><p>Obousměrn&yacute; spojov&yacute; seznam m&aacute; každ&yacute; uzel odkaz na n&aacute;sleduj&iacute;c&iacute; i předchoz&iacute; uzel.</p></li></ul><p id="-sc4yo3_432"><span class="control" id="-sc4yo3_433">Př&iacute;klad jednosměrn&eacute;ho spojov&eacute;ho seznamu:</span></p><div class="code-block" data-lang="java">
+class Node {
+    int hodnota;
+    Node dalsi;
+}
+
+Node prvni = new Node();
+prvni.hodnota = 1;
+prvni.dalsi = new Node();
+prvni.dalsi.hodnota = 2;
+</div><p id="-sc4yo3_435"><span class="control" id="-sc4yo3_436">Př&iacute;klad obousměrn&eacute;ho spojov&eacute;ho seznamu:</span></p><div class="code-block" data-lang="java">
+class Node {
+    int hodnota;
+    Node dalsi;
+    Node predchozi;
+}
+
+Node prvni = new Node();
+prvni.hodnota = 1;
+prvni.dalsi = new Node();
+prvni.dalsi.hodnota = 2;
+prvni.dalsi.predchozi = prvni;
+</div></section><section class="chapter"><h2 id="strom" data-toc="strom">Strom</h2><ul class="list _bullet" id="-sc4yo3_438"><li class="list__item" id="-sc4yo3_439"><p>Strom je hierarchick&aacute; datov&aacute; struktura, kter&aacute; umožňuje ukl&aacute;d&aacute;n&iacute; prvků v hierarchick&eacute; struktuře.</p></li><li class="list__item" id="-sc4yo3_440"><p>Každ&yacute; prvek stromu m&aacute; jednoho rodiče a několik potomků.</p></li></ul><p id="-sc4yo3_441"><span class="control" id="-sc4yo3_442">Př&iacute;klad stromu:</span></p><div class="code-block" data-lang="java">
+class Node {
+    int hodnota;
+    List&lt;Node&gt; potomci;
+}
+
+Node koren = new Node();
+koren.hodnota = 1;
+koren.potomci = new ArrayList&lt;&gt;();
+koren.potomci.add(new Node());
+koren.potomci.get(0).hodnota = 2;
+</div></section><section class="chapter"><h2 id="fronta" data-toc="fronta">Fronta</h2><ul class="list _bullet" id="-sc4yo3_444"><li class="list__item" id="-sc4yo3_445"><p>Fronta (FIFO) je datov&aacute; struktura, kter&aacute; umožňuje ukl&aacute;d&aacute;n&iacute; prvků a jejich zpracov&aacute;n&iacute; v pořad&iacute;, ve kter&eacute;m byly přid&aacute;ny.</p></li><li class="list__item" id="-sc4yo3_446"><p>Operace s frontou jsou <code class="code" id="-sc4yo3_447">add</code> (vložen&iacute; prvku na konec fronty) a <code class="code" id="-sc4yo3_448">poll</code> (odebr&aacute;n&iacute; prvn&iacute;ho prvku z fronty).</p></li></ul><p id="-sc4yo3_449"><span class="control" id="-sc4yo3_450">Př&iacute;klad fronty:</span></p><div class="code-block" data-lang="java">
+Queue&lt;Integer&gt; fronta = new LinkedList&lt;&gt;();
+fronta.add(1);
+fronta.add(2);
+int prvni = fronta.poll();
+</div></section><section class="chapter"><h2 id="z-sobn-k" data-toc="z-sobn-k">Z&aacute;sobn&iacute;k</h2><ul class="list _bullet" id="-sc4yo3_452"><li class="list__item" id="-sc4yo3_453"><p>Z&aacute;sobn&iacute;k (LIFO) je datov&aacute; struktura, kter&aacute; umožňuje ukl&aacute;d&aacute;n&iacute; prvků a jejich zpracov&aacute;n&iacute; v opačn&eacute;m pořad&iacute;, ve kter&eacute;m byly přid&aacute;ny.</p></li><li class="list__item" id="-sc4yo3_454"><p>Operace se z&aacute;sobn&iacute;kem jsou <code class="code" id="-sc4yo3_455">push</code> (vložen&iacute; prvku na vrchol z&aacute;sobn&iacute;ku) a <code class="code" id="-sc4yo3_456">pop</code> (odebr&aacute;n&iacute; prvku z vrcholu z&aacute;sobn&iacute;ku).</p></li></ul><p id="-sc4yo3_457"><span class="control" id="-sc4yo3_458">Př&iacute;klad z&aacute;sobn&iacute;ku:</span></p><div class="code-block" data-lang="java">
+Stack&lt;Integer&gt; zasobnik = new Stack&lt;&gt;();
+zasobnik.push(1);
+zasobnik.push(2);
+int vrchol = zasobnik.pop();
+</div></section><section class="chapter"><h2 id="halda" data-toc="halda">Halda</h2><ul class="list _bullet" id="-sc4yo3_460"><li class="list__item" id="-sc4yo3_461"><p>Halda je datov&aacute; struktura, kter&aacute; umožňuje ukl&aacute;d&aacute;n&iacute; prvků a jejich zpracov&aacute;n&iacute; v pořad&iacute; podle priorit.</p></li><li class="list__item" id="-sc4yo3_462"><p>Rozli&scaron;ujeme <code class="code" id="-sc4yo3_463">min-heap</code> a <code class="code" id="-sc4yo3_464">max-heap</code></p></li><li class="list__item" id="-sc4yo3_465"><p>Min-heap - hodnota každ&eacute;ho uzlu je men&scaron;&iacute; nebo rovna jeho potomků</p></li><li class="list__item" id="-sc4yo3_466"><p>Max-heap - hodnota každ&eacute;ho uzlu je vět&scaron;&iacute; nebo rovna jeho potomků</p></li><li class="list__item" id="-sc4yo3_467"><p>Operace s haldou jsou <code class="code" id="-sc4yo3_468">add</code> (vložen&iacute; prvku do haldy) a <code class="code" id="-sc4yo3_469">poll</code> (odebr&aacute;n&iacute; prvku z haldy s nejvy&scaron;&scaron;&iacute; prioritou).</p></li></ul><p id="-sc4yo3_470"><span class="control" id="-sc4yo3_471">Př&iacute;klad haldy:</span></p><div class="code-block" data-lang="java">
+PriorityQueue&lt;Integer&gt; halda = new PriorityQueue&lt;&gt;();
+halda.add(1);
+halda.add(2);
+int nejvyssiPriorita = halda.poll();
+</div></section><div class="last-modified">Last modified: 12 May 2024</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="marektester.html" class="navigation-links__prev">20. Testov&aacute;n&iacute;, Unit testov&aacute;n&iacute; a dokumentace zdrojov&eacute;ho k&oacute;du</a><a href="threads.html" class="navigation-links__next">22. Vl&aacute;kna, Paralern&iacute; programov&aacute;n&iacute;, Asynchron&iacute; metody, Concurrent design patterns</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b259/app.js"></script></body></html>

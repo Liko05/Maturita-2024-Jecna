@@ -1,0 +1,200 @@
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html lang="en-US" data-preset="contrast" data-primary-color="#307FFF"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta charset="UTF-8"><meta name="robots" content="noindex"><meta name="built-on" content="2024-05-12T03:58:30.162799"><title>2. Algoritmizace - Grafy, Prohl&eacute;d&aacute;v&aacute;n&iacute; stavov&eacute;ho prostoru, Řazen&iacute; | Maturita</title><script type="application/json" id="virtual-toc-data">[{"id":"vlastnosti-algoritm","level":0,"title":"Vlastnosti algoritmů","anchor":"#vlastnosti-algoritm"},{"id":"grafy","level":0,"title":"Grafy","anchor":"#grafy"},{"id":"prohl-d-v-n-stavov-ho-prostoru","level":0,"title":"Prohlédávání stavového prostoru","anchor":"#prohl-d-v-n-stavov-ho-prostoru"},{"id":"azen","level":0,"title":"Řazení","anchor":"#azen"}]</script><script type="application/json" id="topic-shortcuts"></script><link href="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b259/app.css" rel="stylesheet"><meta name="msapplication-TileColor" content="#000000"><link rel="apple-touch-icon" sizes="180x180" href="https://jetbrains.com/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="https://jetbrains.com/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="https://jetbrains.com/favicon-16x16.png"><meta name="msapplication-TileImage" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-144x144.png"><meta name="msapplication-square70x70logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-70x70.png"><meta name="msapplication-square150x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-150x150.png"><meta name="msapplication-wide310x150logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x150.png"><meta name="msapplication-square310x310logo" content="https://resources.jetbrains.com/storage/ui/favicons/mstile-310x310.png"><meta name="image" content=""><!-- Open Graph --><meta property="og:title" content="2. Algoritmizace - Grafy, Prohl&eacute;d&aacute;v&aacute;n&iacute; stavov&eacute;ho prostoru, Řazen&iacute; | Maturita"><meta property="og:description" content=""><meta property="og:image" content=""><meta property="og:site_name" content="Maturita Help"><meta property="og:type" content="website"><meta property="og:locale" content="en_US"><meta property="og:url" content="writerside-documentation//20.24/algorithms1.html"><!-- End Open Graph --><!-- Twitter Card --><meta name="twitter:card" content="summary_large_image"><meta name="twitter:site" content=""><meta name="twitter:title" content="2. Algoritmizace - Grafy, Prohl&eacute;d&aacute;v&aacute;n&iacute; stavov&eacute;ho prostoru, Řazen&iacute; | Maturita"><meta name="twitter:description" content=""><meta name="twitter:creator" content=""><meta name="twitter:image:src" content=""><!-- End Twitter Card --><!-- Schema.org WebPage --><script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "WebPage",
+    "@id": "writerside-documentation//20.24/algorithms1.html#webpage",
+    "url": "writerside-documentation//20.24/algorithms1.html",
+    "name": "2. Algoritmizace - Grafy, Prohl&eacute;d&aacute;v&aacute;n&iacute; stavov&eacute;ho prostoru, Řazen&iacute; | Maturita",
+    "description": "",
+    "image": "",
+    "inLanguage":"en-US"
+}</script><!-- End Schema.org --><!-- Schema.org WebSite --><script type="application/ld+json">{
+    "@type": "WebSite",
+    "@id": "writerside-documentation/#website",
+    "url": "writerside-documentation/",
+    "name": "Maturita Help"
+}</script><!-- End Schema.org --></head><body data-id="Algorithms1" data-main-title="2. Algoritmizace - Grafy, Prohlédávání stavového prostoru, Řazení" data-article-props="{&quot;seeAlsoStyle&quot;:&quot;links&quot;}" data-template="article" data-breadcrumbs="Questions-PV.md|PV"><div class="wrapper"><main class="panel _main"><header class="panel__header"><div class="container"><h3>Maturita 20.24 Help</h3><div class="panel-trigger"></div></div></header><section class="panel__content"><div class="container"><article class="article" data-shortcut-switcher="inactive"><h1 data-toc="Algorithms1" id="Algorithms1.md">2. Algoritmizace - Grafy, Prohlédávání stavového prostoru, Řazení</h1><ul class="list _bullet" id="-7zm3y0_3618"><li class="list__item" id="-7zm3y0_3619"><p>Algoritmy jsou postupy ře&scaron;en&iacute; probl&eacute;mů pro jednotliv&eacute; probl&eacute;my.</p></li><li class="list__item" id="-7zm3y0_3620"><p>Každ&yacute; algoritmus m&aacute; svou složitost, kter&aacute; se d&aacute; vyj&aacute;dřit časovou a paměťovou složitost&iacute;.</p></li><li class="list__item" id="-7zm3y0_3621"><p>Z&aacute;sadně je tvořen jednoznačn&yacute;m postupem, zaručuje že pro spr&aacute;vn&yacute; vstup vr&aacute;t&iacute; spr&aacute;vn&yacute; v&yacute;stup.</p></li></ul><section class="chapter"><h2 id="vlastnosti-algoritm" data-toc="vlastnosti-algoritm">Vlastnosti algoritmů</h2><ul class="list _bullet" id="-7zm3y0_3622"><li class="list__item" id="-7zm3y0_3623"><p><span class="control" id="-7zm3y0_3624">Hromadnost</span> - Měniteln&aacute; vstupn&iacute; data.</p></li><li class="list__item" id="-7zm3y0_3625"><p><span class="control" id="-7zm3y0_3626">Determinovanost</span> - Každ&yacute; krok je jednoznačně definov&aacute;n.</p></li><li class="list__item" id="-7zm3y0_3627"><p><span class="control" id="-7zm3y0_3628">Konečnost a resultativnost</span> - Pro spr&aacute;vn&yacute; vstup vr&aacute;t&iacute; spr&aacute;vn&yacute; v&yacute;stup.</p></li></ul></section><section class="chapter"><h2 id="grafy" data-toc="grafy">Grafy</h2><ul class="list _bullet" id="-7zm3y0_3629"><li class="list__item" id="-7zm3y0_3630"><p><span class="control" id="-7zm3y0_3631">[G]raf</span> je množina vrcholů a hran, kter&eacute; spojuj&iacute; vrcholy. Slouž&iacute; k reprezentaci vztahů mezi objekty. Znač&iacute;me G(V,E) </p><ul class="list _bullet" id="-7zm3y0_3632"><li class="list__item" id="-7zm3y0_3633"><p><span class="control" id="-7zm3y0_3634">[V]rchol</span> - Objekt, kter&yacute; je reprezentov&aacute;n v grafu.</p></li><li class="list__item" id="-7zm3y0_3635"><p><span class="control" id="-7zm3y0_3636">Hrana/[E]dge</span> - Relace mezi dvěma vrcholy.</p></li><li class="list__item" id="-7zm3y0_3637"><p><span class="control" id="-7zm3y0_3638">Využit&iacute;</span> - Např&iacute;klad pro hled&aacute;n&iacute; nejkrat&scaron;&iacute; cesty, detekci cyklů, nebo pro reprezentaci dat.</p></li></ul></li></ul><section class="chapter"><h3 id="zn-zorn-n-grafu" data-toc="zn-zorn-n-grafu">Zn&aacute;zorněn&iacute; grafu:</h3><section class="chapter"><h4 id="ilustrace" data-toc="ilustrace">Ilustrace</h4><figure id="-7zm3y0_3639"><img alt="Graf" src="https://media.geeksforgeeks.org/wp-content/uploads/undirectedgraph.png" title="Graf"></figure></section><section class="chapter"><h4 id="matrix" data-toc="matrix">Matrix</h4><figure id="-7zm3y0_3640"><img alt="Matice" src="https://media.geeksforgeeks.org/wp-content/uploads/adjacencymatrix.png" title="Matice"></figure></section></section><section class="chapter"><h3 id="z-kladn-operace-pro-grafy" data-toc="z-kladn-operace-pro-grafy">Z&aacute;kladn&iacute; operace pro grafy:</h3><ul class="list _bullet" id="-7zm3y0_3641"><li class="list__item" id="-7zm3y0_3642"><div class="table-wrapper"><table class="wide" id="-7zm3y0_3643"><thead><tr class="ijRowHead" id="-7zm3y0_3644"><th id="-7zm3y0_3645"><p>Operace</p></th><th id="-7zm3y0_3646"><p>Popis</p></th></tr></thead><tbody><tr id="-7zm3y0_3647"><td id="-7zm3y0_3648"><p><span class="control" id="-7zm3y0_3649">Vložen&iacute; vrcholu</span></p></td><td id="-7zm3y0_3650"><p>Vložen&iacute; nov&eacute;ho vrcholu do grafu.</p></td></tr><tr id="-7zm3y0_3651"><td id="-7zm3y0_3652"><p><span class="control" id="-7zm3y0_3653">Vložen&iacute; hrany</span></p></td><td id="-7zm3y0_3654"><p>Vložen&iacute; nov&eacute; hrany mezi vrcholy.</p></td></tr><tr id="-7zm3y0_3655"><td id="-7zm3y0_3656"><p><span class="control" id="-7zm3y0_3657">Smaz&aacute;n&iacute; vrcholu</span></p></td><td id="-7zm3y0_3658"><p>Smaz&aacute;n&iacute; vrcholu z grafu.</p></td></tr><tr id="-7zm3y0_3659"><td id="-7zm3y0_3660"><p><span class="control" id="-7zm3y0_3661">Smaz&aacute;n&iacute; hrany</span></p></td><td id="-7zm3y0_3662"><p>Smaz&aacute;n&iacute; hrany mezi vrcholy.</p></td></tr><tr id="-7zm3y0_3663"><td id="-7zm3y0_3664"><p><span class="control" id="-7zm3y0_3665">V&yacute;pis grafu</span></p></td><td id="-7zm3y0_3666"><p>V&yacute;pis grafu.</p></td></tr><tr id="-7zm3y0_3667"><td id="-7zm3y0_3668"><p><span class="control" id="-7zm3y0_3669">Prohled&aacute;v&aacute;n&iacute; grafu</span></p></td><td id="-7zm3y0_3670"><p>Prohled&aacute;v&aacute;n&iacute; grafu.</p></td></tr></tbody></table></div></li></ul></section><section class="chapter"><h3 id="code-example_1" data-toc="code-example_1">Code example</h3><div class="code-block" data-lang="java">
+class Graph&lt;T&gt; {
+    private Map&lt;T, List&lt;T&gt;&gt; map = new HashMap&lt;&gt;();
+    
+    public void addVertex(T s) {
+        map.put(s, new LinkedList&lt;T&gt;());
+    }
+    
+    public void addEdge(T source, T destination, boolean bidirectional) {
+        if (!map.containsKey(source)) addVertex(source);
+        if (!map.containsKey(destination)) addVertex(destination);
+        map.get(source).add(destination);
+        if (bidirectional) map.get(destination).add(source);
+    }
+    
+    public void getVertexCount() {
+        System.out.println(&quot;The graph has &quot; + map.keySet().size() + &quot; vertex&quot;);
+    }
+    
+    public void hasVertex(T s)
+    {
+        if (map.containsKey(s)) {
+            System.out.println(&quot;The graph contains &quot; + s
+                               + &quot; as a vertex.&quot;);
+        }
+        else {
+            System.out.println(&quot;The graph does not contain &quot;
+                               + s + &quot; as a vertex.&quot;);
+        }
+    }
+    
+    public void hasEdge(T s, T d)
+    {
+        if (map.get(s).contains(d)) {
+            System.out.println(
+                &quot;The graph has an edge between &quot; + s
+                + &quot; and &quot; + d + &quot;.&quot;);
+        }
+        else {
+            System.out.println(
+                &quot;The graph has no edge between &quot; + s
+                + &quot; and &quot; + d + &quot;.&quot;);
+        }
+    }
+}
+</div></section></section><section class="chapter"><h2 id="prohl-d-v-n-stavov-ho-prostoru" data-toc="prohl-d-v-n-stavov-ho-prostoru">Prohl&eacute;d&aacute;v&aacute;n&iacute; stavov&eacute;ho prostoru</h2><ul class="list _bullet" id="-7zm3y0_3672"><li class="list__item" id="-7zm3y0_3673"><p><span class="control" id="-7zm3y0_3674">Stavov&yacute; prostor</span> - Množina v&scaron;ech možn&yacute;ch stavů, S.</p></li><li class="list__item" id="-7zm3y0_3675"><p><span class="control" id="-7zm3y0_3676">Poč&aacute;tečn&iacute; stav</span> - Stav, ve kter&eacute;m se nach&aacute;z&iacute;me, s0 &isin; S</p></li><li class="list__item" id="-7zm3y0_3677"><p><span class="control" id="-7zm3y0_3678">C&iacute;lov&eacute; stavy</span> - Stavy, kter&eacute; chceme dos&aacute;hnout, T &sube; S</p></li><li class="list__item" id="-7zm3y0_3679"><p><span class="control" id="-7zm3y0_3680">Akce</span> - Operace, kterou můžeme prov&eacute;st, A</p></li><li class="list__item" id="-7zm3y0_3681"><p><span class="control" id="-7zm3y0_3682">Přechodov&aacute; funkce</span> - Funkce, kter&aacute; n&aacute;m ř&iacute;k&aacute;, jak se můžeme dostat z jednoho stavu do druh&eacute;ho, f : S &times; A &rarr; S</p></li></ul><section class="chapter"><h3 id="vlastnosti-prohl-d-v-n-stavov-ho-prostoru" data-toc="vlastnosti-prohl-d-v-n-stavov-ho-prostoru">Vlastnosti prohl&eacute;d&aacute;v&aacute;n&iacute; stavov&eacute;ho prostoru</h3><ul class="list _bullet" id="-7zm3y0_3683"><li class="list__item" id="-7zm3y0_3684"><p><span class="control" id="-7zm3y0_3685">&Uacute;plnost</span> - Algoritmus najde c&iacute;lov&yacute; stav, pokud existuje.</p></li><li class="list__item" id="-7zm3y0_3686"><p><span class="control" id="-7zm3y0_3687">Optimalita</span> - Algoritmus najde nejlep&scaron;&iacute; cestu.</p></li><li class="list__item" id="-7zm3y0_3688"><p><span class="control" id="-7zm3y0_3689">Využit&iacute;</span> - Pl&aacute;nov&aacute;n&iacute; cesty, bludi&scaron;tě, ře&scaron;en&iacute; hlavolamů.</p></li></ul></section><section class="chapter"><h3 id="algoritmy-pro-prohl-d-v-n-stavov-ho-prostoru" data-toc="algoritmy-pro-prohl-d-v-n-stavov-ho-prostoru">Algoritmy pro prohl&eacute;d&aacute;v&aacute;n&iacute; stavov&eacute;ho prostoru</h3><ul class="list _bullet" id="-7zm3y0_3690"><li class="list__item" id="-7zm3y0_3691"><p><span class="control" id="-7zm3y0_3692"><a href="https://en.wikipedia.org/wiki/Depth-first_search" id="-7zm3y0_3693" data-external="true" rel="noopener noreferrer">DFS</a> (Depth First Search)</span></p><ul class="list _bullet" id="-7zm3y0_3694"><li class="list__item" id="-7zm3y0_3695"><p>Prohled&aacute;v&aacute;n&iacute; do hloubky.</p></li><li class="list__item" id="-7zm3y0_3696"><p>Funguje n&aacute;sledovně: V každ&eacute;m stavu zkus&iacute;m něco udělat. Když už to nejde, tak se vr&aacute;t&iacute;m a zkus&iacute;m něco jin&eacute;ho.</p></li><li class="list__item" id="-7zm3y0_3697"><p>Vlastnosti: C&iacute;l =&gt; hotovo, ozančuje si prozkouman&eacute; uzly.</p></li></ul></li></ul><section class="chapter"><h4 id="dfs" data-toc="dfs">DFS</h4><figure id="-7zm3y0_3698"><img alt="DFS" src="https://he-s3.s3.amazonaws.com/media/uploads/9fa1119.jpg" title="DFS"></figure></section><section class="chapter"><h4 id="dfs-code-example" data-toc="dfs-code-example">DFS Code example</h4><div class="code-block" data-lang="java">
+class Graph {
+  private LinkedList&lt;Integer&gt; adjLists[];
+  private boolean visited[];
+
+  Graph(int vertices) {
+    adjLists = new LinkedList[vertices];
+    visited = new boolean[vertices];
+
+    for (int i = 0; i &lt; vertices; i++)
+      adjLists[i] = new LinkedList&lt;Integer&gt;();
+  }
+
+  void addEdge(int src, int dest) {
+    adjLists[src].add(dest);
+  }
+
+  void DFS(int vertex) {
+    visited[vertex] = true;
+    System.out.print(vertex + &quot; &quot;);
+
+    Iterator&lt;Integer&gt; ite = adjLists[vertex].listIterator();
+    while (ite.hasNext()) {
+      int adj = ite.next();
+      if (!visited[adj])
+        DFS(adj);
+    }
+  }
+}
+</div><ul class="list _bullet" id="-7zm3y0_3700"><li class="list__item" id="-7zm3y0_3701"><p><span class="control" id="-7zm3y0_3702"><a href="https://en.wikipedia.org/wiki/Breadth-first_search" id="-7zm3y0_3703" data-external="true" rel="noopener noreferrer">BFS</a> (Breadth First Search)</span></p><ul class="list _bullet" id="-7zm3y0_3704"><li class="list__item" id="-7zm3y0_3705"><p>Prohled&aacute;v&aacute;n&iacute; do &scaron;&iacute;řky.</p></li><li class="list__item" id="-7zm3y0_3706"><p>Funguje n&aacute;sledovně: Hled&aacute;me v pořad&iacute; d&eacute;lky sekvence akc&iacute;. Nejprve prozkoum&aacute;me v&scaron;echny sousedy, pak jejich sousedy, atd.</p></li><li class="list__item" id="-7zm3y0_3707"><p>Vlastnosti: Vždy najde nejkrat&scaron;&iacute; cestu, využ&iacute;v&aacute; frontu.</p></li></ul></li></ul></section><section class="chapter"><h4 id="bfs" data-toc="bfs">BFS</h4><figure id="-7zm3y0_3708"><img alt="BFS" src="https://velog.velcdn.com/images/seongwon97/post/32e4165b-b98a-41d6-8daf-0506528cb07b/image.png" title="BFS"></figure></section><section class="chapter"><h4 id="bfs-code-example" data-toc="bfs-code-example">BFS Code example</h4><div class="code-block" data-lang="java">
+class Graph {
+
+    private int V;
+
+    private LinkedList&lt;Integer&gt; adj[];
+
+    Graph(int v)
+    {
+        V = v;
+        adj = new LinkedList[v];
+        for (int i = 0; i &lt; v; ++i)
+            adj[i] = new LinkedList();
+    }
+
+    void addEdge(int v, int w) { adj[v].add(w); }
+
+    void BFS(int s)
+    {
+        boolean visited[] = new boolean[V];
+
+        LinkedList&lt;Integer&gt; queue
+            = new LinkedList&lt;Integer&gt;();
+
+        visited[s] = true;
+        queue.add(s);
+
+        while (queue.size() != 0) {
+
+            s = queue.poll();
+            System.out.print(s + &quot; &quot;);
+
+            Iterator&lt;Integer&gt; i = adj[s].listIterator();
+            while (i.hasNext()) {
+                int n = i.next();
+                if (!visited[n]) {
+                    visited[n] = true;
+                    queue.add(n);
+                }
+            }
+        }
+    }
+}
+</div></section></section></section><section class="chapter"><h2 id="azen" data-toc="azen">Řazen&iacute;</h2><ul class="list _bullet" id="-7zm3y0_3710"><li class="list__item" id="-7zm3y0_3711"><p><span class="control" id="-7zm3y0_3712">Řazen&iacute;</span> - Proces, kdy se prvky v poli uspoř&aacute;daj&iacute; podle určit&eacute; vlastnosti.</p></li><li class="list__item" id="-7zm3y0_3713"><p><span class="control" id="-7zm3y0_3714">Algoritmy</span> - Bubble sort, Selection sort, Insertion sort, Merge sort, Quick sort, Heap sort, Radix sort.</p></li><li class="list__item" id="-7zm3y0_3715"><p><span class="control" id="-7zm3y0_3716">Využit&iacute;</span> - Vyhled&aacute;v&aacute;n&iacute;, statistika, datab&aacute;ze.</p></li></ul><section class="chapter"><h3 id="bubble-sort" data-toc="bubble-sort">Bubble sort</h3><ul class="list _bullet" id="-7zm3y0_3717"><li class="list__item" id="-7zm3y0_3718"><p><span class="control" id="-7zm3y0_3719">Princip</span> - Porovn&aacute;v&aacute; dva sousedn&iacute; prvky a prohod&iacute; je, pokud nejsou ve spr&aacute;vn&eacute;m pořad&iacute;.</p></li><li class="list__item" id="-7zm3y0_3720"><p><span class="control" id="-7zm3y0_3721">Využit&iacute;</span> - Mal&eacute; pole, kde je třeba jednoduch&yacute; algoritmus.</p></li></ul><figure id="-7zm3y0_3722"><img alt="Bubble sort" src="https://media.geeksforgeeks.org/wp-content/uploads/20230526103842/1.webp" title="Bubble sort"></figure><section class="chapter"><h4 id="bubble-sort-code-example" data-toc="bubble-sort-code-example">Bubble sort Code example</h4><div class="code-block" data-lang="java">
+class BubbleSort {
+    void bubbleSort(int arr[]) {
+        int n = arr.length;
+        for (int i = 0; i &lt; n-1; i++)
+            for (int j = 0; j &lt; n-i-1; j++)
+                if (arr[j] &gt; arr[j+1]) {
+                    int temp = arr[j];
+                    arr[j] = arr[j+1];
+                    arr[j+1] = temp;
+                }
+    }
+}
+</div></section></section><section class="chapter"><h3 id="selection-sort" data-toc="selection-sort">Selection sort</h3><ul class="list _bullet" id="-7zm3y0_3724"><li class="list__item" id="-7zm3y0_3725"><p><span class="control" id="-7zm3y0_3726">Princip</span> - Najde nejmen&scaron;&iacute; prvek a prohod&iacute; ho s prvn&iacute;m prvkem. Pot&eacute; najde druh&yacute; nejmen&scaron;&iacute; prvek a prohod&iacute; ho s druh&yacute;m prvkem, atd.</p></li><li class="list__item" id="-7zm3y0_3727"><p><span class="control" id="-7zm3y0_3728">Využit&iacute;</span> - Mal&eacute; pole, kde je třeba jednoduch&yacute; algoritmus.</p></li></ul><figure id="-7zm3y0_3729"><img alt="Selection sort" src="https://media.geeksforgeeks.org/wp-content/uploads/20240110164310/Selection-Sort-in-Java-660.png" title="Selection sort"></figure><section class="chapter"><h4 id="selection-sort-code-example" data-toc="selection-sort-code-example">Selection sort Code example</h4><div class="code-block" data-lang="java">
+class SelectionSort {
+    void sort(int arr[]) {
+        int n = arr.length;
+        for (int i = 0; i &lt; n-1; i++) {
+            int min_idx = i;
+            for (int j = i+1; j &lt; n; j++)
+                if (arr[j] &lt; arr[min_idx])
+                    min_idx = j;
+            int temp = arr[min_idx];
+            arr[min_idx] = arr[i];
+            arr[i] = temp;
+        }
+    }
+}
+</div></section></section><section class="chapter"><h3 id="merge-sort" data-toc="merge-sort">Merge sort</h3><ul class="list _bullet" id="-7zm3y0_3731"><li class="list__item" id="-7zm3y0_3732"><p><span class="control" id="-7zm3y0_3733">Princip</span> - Rozděl&iacute; pole na poloviny, dokud nezůstane jednoprvkov&eacute; pole. Pot&eacute; se pole spojuj&iacute; a řad&iacute;.</p></li><li class="list__item" id="-7zm3y0_3734"><p><span class="control" id="-7zm3y0_3735">Využit&iacute;</span> - Velk&eacute; pole, kde je třeba rychl&yacute; algoritmus.</p></li></ul><figure id="-7zm3y0_3736"><img alt="Merge sort" src="https://media.geeksforgeeks.org/wp-content/uploads/20230713125040/Merge-Sort-in-Java-2-(1)-660.png" title="Merge sort"></figure></section><section class="chapter"><h3 id="quick-sort" data-toc="quick-sort">Quick sort</h3><ul class="list _bullet" id="-7zm3y0_3737"><li class="list__item" id="-7zm3y0_3738"><p><span class="control" id="-7zm3y0_3739">Princip</span> - Vybere prvek jako pivot a rozděl&iacute; pole na dvě č&aacute;sti. Prav&aacute; č&aacute;st obsahuje prvky vět&scaron;&iacute; než pivot, lev&aacute; č&aacute;st obsahuje prvky men&scaron;&iacute; než pivot.</p></li><li class="list__item" id="-7zm3y0_3740"><p><span class="control" id="-7zm3y0_3741">Využit&iacute;</span> - Velk&eacute; pole, kde je třeba rychl&yacute; algoritmus.</p></li></ul><figure id="-7zm3y0_3742"><img alt="Quick sort" src="https://inprogrammer.com/wp-content/uploads/2023/02/image-48.png" title="Quick sort"></figure><section class="chapter"><h4 id="quick-sort-code-example" data-toc="quick-sort-code-example">Quick sort Code example</h4><div class="code-block" data-lang="java">
+class GFG {
+
+    static void swap(int[] arr, int i, int j)
+    {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+
+    static int partition(int[] arr, int low, int high)
+    {
+        int pivot = arr[high];
+
+        int i = (low - 1);
+
+        for (int j = low; j &lt;= high - 1; j++) {
+
+            if (arr[j] &lt; pivot) {
+
+                i++;
+                swap(arr, i, j);
+            }
+        }
+        swap(arr, i + 1, high);
+        return (i + 1);
+    }
+
+    static void quickSort(int[] arr, int low, int high)
+    {
+        if (low &lt; high) {
+
+            int pi = partition(arr, low, high);
+
+            quickSort(arr, low, pi - 1);
+            quickSort(arr, pi + 1, high);
+        }
+    }
+}
+</div></section></section></section><div class="last-modified">Last modified: 12 May 2024</div><div data-feedback-placeholder="true"></div><div class="navigation-links _bottom"><a href="adresovani.html" class="navigation-links__prev">1. Adresov&aacute;n&iacute; a spr&aacute;va paměti - Garbage collecting, Reference/ukazatele, Struktura paměti programu</a><a href="algorithms2.html" class="navigation-links__next">3. Algoritmizace - Rekurze, Brute Force, Heuristiky, Nedeterministick&eacute; algoritmy</a></div></article><div id="disqus_thread"></div></div></section></main></div><script src="https://resources.jetbrains.com/writerside/apidoc/6.10.0-b259/app.js"></script></body></html>
