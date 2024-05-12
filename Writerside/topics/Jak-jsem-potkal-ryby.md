@@ -1,6 +1,6 @@
 # Jak-jsem-potkal-ryby
 
-## [Autor](Smrt-krasnych-srncu.md#autor)
+- [Autor](Smrt-krasnych-srncu.md#autor)
 
 ### Dílo
 - soubor autobiografických povídek z autorova dětství
@@ -11,7 +11,7 @@
 - Česko 
 ### Čas
 - 1. pol. 20. st.
-### [Postavy](Smrt-krasnych-srncu.md#postavy)
+- [Postavy](Smrt-krasnych-srncu.md#postavy)
 - **Ota Pavel** - žid, milovník přírody
 - Otec
 - Bratři

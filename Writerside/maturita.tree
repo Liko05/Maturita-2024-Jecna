@@ -3,8 +3,8 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="maturita"
-                 name="Maturita"
-                 start-page="Home.md">
+                  name="Maturita"
+                  start-page="Home.md">
 
     <toc-element topic="Home.md"/>
     <toc-element topic="Questions-PV.md"/>
@@ -49,6 +49,9 @@
         <toc-element toc-title="VPN" topic="VPN-principy-funkce-použití-tunely-zabezpečení.md"/>
         <toc-element toc-title="DHCP4"
                      topic="DHCP4-funkce-možnosti-konfigurace-rozsahy-IP-adres-dle-MAC-adresy-použití.md"/>
+        <toc-element topic="DHCP6-funkce-možnosti-konfigurace-rozsahy-IP-adres-dle-MAC-adresy-použití.md"
+                     toc-title="DHCP6"/>
     </toc-element>
+
 
 </instance-profile>
