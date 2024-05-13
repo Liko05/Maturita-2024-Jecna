@@ -79,6 +79,22 @@
                      toc-title="DHCP6"/>
         <toc-element topic="DNS-funkce-hierarchie-DNS-od-souboru-po-globální-DNS-servery-konfigurace.md"
                      toc-title="DNS"/>
+        <toc-element topic="Zabezpečení-datových-sítí-Filtrace-provozu-Firewall-NAT.md" toc-title="Firewall-NAT"/>
+        <toc-element toc-title="bezdrat-site"
+                     topic="Bezdrátové-sítě-princip-radiového-přenosu-Rozdělení-a-použití-elektromagnetických-vln-jejich-šíření-antény-základní-druhy-modulací-zabezpečení-autentifikace.md"/>
+        <toc-element toc-title="http"
+                     topic="Hypertextové-schéma-HTTP-hlavičky-HTTP-autentifikace-HTTP2-rozdíly-oproti-HTTP1-1-Webové-služby.md"/>
+        <toc-element
+                topic="SSL-TLS-RSA-Symetrické-a-asymetrické-šifrování-SSL-TLS-handshake-Certifikační-autority-Princip-ověření-pravosti-klíče.md"
+                toc-title="SSL/TLS RSA"/>
+        <toc-element topic="IMAP-SMTP-princip-odesílání-pošty-synchronizace-poštovních-schránek-se-serverem.md"
+                     toc-title="IMAP, SMTP"/>
+        <toc-element topic="Teorie-OS-fungování-OS-struktura-OS-správa-procesů-pseudoparalelismus.md"
+                     toc-title="Teorie OS"/>
+        <toc-element toc-title="Cloud computing "
+                     topic="Cloud-computing-různé-vitalizace-typy-SaaS-PaaS-IaaS-výhody-a-nevýhody.md"/>
+        <toc-element toc-title="OS Linux"
+                     topic="OS-Linux-Struktura-OS-Shell-koncepce-typy-příkazy-Správa-programového-vybavení-Start-systému-Služby-naplánované-procesy-Souborový-sytém-Účel-základních-adresářů.md"/>
     </toc-element>
 
 </instance-profile>
