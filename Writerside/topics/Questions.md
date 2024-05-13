@@ -24,3 +24,4 @@
 9. [VPN, principy, funkce, použití, tunely, zabezpečení](VPN-principy-funkce-použití-tunely-zabezpečení.md)
 10. [DHCP4 - funkce, možnosti konfigurace (rozsahy IP adres, dle MAC adresy), použití](DHCP4-funkce-možnosti-konfigurace-rozsahy-IP-adres-dle-MAC-adresy-použití.md)
 11. [DHCP6 - funkce, možnosti konfigurace (rozsahy IP adres, dle MAC adresy), použití](DHCP6-funkce-možnosti-konfigurace-rozsahy-IP-adres-dle-MAC-adresy-použití.md)
+12. [DNS, funkce, hierarchie DNS (od souboru po globální DNS servery), konfigurace](DNS-funkce-hierarchie-DNS-od-souboru-po-globální-DNS-servery-konfigurace.md)

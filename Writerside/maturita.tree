@@ -77,6 +77,8 @@
                      topic="DHCP4-funkce-možnosti-konfigurace-rozsahy-IP-adres-dle-MAC-adresy-použití.md"/>
         <toc-element topic="DHCP6-funkce-možnosti-konfigurace-rozsahy-IP-adres-dle-MAC-adresy-použití.md"
                      toc-title="DHCP6"/>
+        <toc-element topic="DNS-funkce-hierarchie-DNS-od-souboru-po-globální-DNS-servery-konfigurace.md"
+                     toc-title="DNS"/>
     </toc-element>
 
 </instance-profile>
