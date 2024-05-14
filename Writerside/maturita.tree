@@ -122,6 +122,13 @@
                      topic="Cloud-computing-různé-vitalizace-typy-SaaS-PaaS-IaaS-výhody-a-nevýhody.md"/>
         <toc-element toc-title="OS Linux"
                      topic="OS-Linux-Struktura-OS-Shell-koncepce-typy-příkazy-Správa-programového-vybavení-Start-systému-Služby-naplánované-procesy-Souborový-sytém-Účel-základních-adresářů.md"/>
+        <toc-element topic="OS-Linux-Správa-uživatelů-skupin-Zabezpečení-přístupu-k-souborům-a-službám-SUDO.md"/>
+        <toc-element toc-title="OS Linux - Vzdalena sprava Firewall"
+                     topic="OS-Linux-Vzdálená-správa-Firewall-konfigurace-ovládání-síťových-zařízení-Naplánované-úlohy-LOG-soubory.md"/>
+        <toc-element toc-title="OS Linux - Tvorba skriptů"
+                     topic="OS-Linux-Tvorba-skriptů-Práce-s-textovými-soubory-filtrace-Regulární-výrazy.md"/>
+        <toc-element toc-title="Etherchannel" topic="Etherchannel-principy-funkce-použití.md"/>
+        <toc-element topic="HSRP-principy-funkce-použití-konfigurace.md" toc-title="HSRP"/>
     </toc-element>
 
 </instance-profile>

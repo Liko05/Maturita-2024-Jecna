@@ -1,2 +1,2 @@
 # Základní principy Ethernetu, jeho standardy, strukturovaná kabeláž. Kategorie strukturované kabeláže, optika, kabely, konektory
-todo
+[Too lazy to rewrite. Read it here](https://github.com/AntoninKadrmas/MaturitaJecna/blob/master/2023_PSS/KADRMAS/)

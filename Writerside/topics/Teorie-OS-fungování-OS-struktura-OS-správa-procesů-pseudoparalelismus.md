@@ -93,6 +93,7 @@ paměti. To umožňuje neomezený a efektivní přístup k hardware. Mnozí výv
 jednodušší navrhnout i implementovat než ostatní řešení a jsou extrémně účinné, když jsou dobře napsané. Hlavní
 nevýhodou je závislost mezi systémovými komponentami – chyba v libovolném ovladači zařízení může shodit celý systém – a
 fakt, že velká jádra mohou být těžko udržovatelná.
+
 ![kernel-software.png](kernel-software.png)
 
 ### Microkernel
@@ -102,6 +103,7 @@ specializovanými ovladači v uživatelském prostoru. Mikrojádro definuje jedn
 primitivních funkcí nebo systémových volání implementujících minimální služby OS jako je správa paměti nebo
 meziprocesová komunikace(IPC). Mikrojádra jsou jednodušší než monolitická jádra, delegování úkolů na ovladače však
 snižuje efektivitu systému, proto musí být mikrojádro navrženo tak, aby byl tento dopad minimalizován.
+
 ![microkernel.png](microkernel.png)
 
 ## Sprava procesu

@@ -42,6 +42,7 @@ balicek hledali odvede za nas prace ovsem pod poklickou stale vola dpkg ktery se
 ### Start systemu
 
 ![system-start.png](system-start.png)
+
 ![boot-process.png](boot-process.png)
 
 - probehne Power On Self Test ktery zjistuje jestli jsou komponenty v pocitaci v poradku pokud je vse takjak ma byt

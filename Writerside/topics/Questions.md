@@ -33,3 +33,8 @@
 18. [Teorie OS - fungování OS, struktura OS, správa procesů, pseudoparalelismus](Teorie-OS-fungování-OS-struktura-OS-správa-procesů-pseudoparalelismus.md)
 19. [Cloud computing - různé vitalizace typy (SaaS, PaaS, IaaS), výhody a nevýhody](Cloud-computing-různé-vitalizace-typy-SaaS-PaaS-IaaS-výhody-a-nevýhody.md)
 20. [OS Linux - Struktura OS, Shell: koncepce, typy, příkazy. Správa programového vybavení. Start systému. Služby, naplánované procesy. Souborový sytém, Účel základních adresářů.](OS-Linux-Struktura-OS-Shell-koncepce-typy-příkazy-Správa-programového-vybavení-Start-systému-Služby-naplánované-procesy-Souborový-sytém-Účel-základních-adresářů.md)
+21. [OS Linux - Správa uživatelů, skupin. Zabezpečení přístupu k souborům a službám. SUDO](OS-Linux-Správa-uživatelů-skupin-Zabezpečení-přístupu-k-souborům-a-službám-SUDO.md)
+22. [OS Linux - Vzdálená správa Firewall - konfigurace, ovládání síťových zařízení. Naplánované úlohy, LOG soubory.](OS-Linux-Vzdálená-správa-Firewall-konfigurace-ovládání-síťových-zařízení-Naplánované-úlohy-LOG-soubory.md)
+23. [OS Linux - Tvorba skriptů. Práce s textovými soubory, filtrace, Regulární výrazy.](OS-Linux-Tvorba-skriptů-Práce-s-textovými-soubory-filtrace-Regulární-výrazy.md)
+24. [Etherchannel, principy, funkce, použití](Etherchannel-principy-funkce-použití.md)
+25. [HSRP, principy, funkce, použití, konfigurace](HSRP-principy-funkce-použití-konfigurace.md)
