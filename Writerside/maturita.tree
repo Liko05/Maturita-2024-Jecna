@@ -35,6 +35,7 @@
         <toc-element topic="String.md"/>
     </toc-element>
     <toc-element topic="czech.md">
+        <toc-element topic="Květy-zla.md"/>
         <toc-element topic="Teorie.md"/>
         <toc-element topic="Struktura-zkousky.md"/>
         <toc-element topic="Zkroceni-zle-zeny.md"/>
