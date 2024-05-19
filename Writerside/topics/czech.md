@@ -24,3 +24,6 @@
 - [Smrt krásných srnců](Smrt-krasnych-srncu.md)
 - [Jak jsem potkal ryby](Jak-jsem-potkal-ryby.md)
 - [Květy zla](Květy-zla.md)
+- [Bajecna leta pod psa](Bajecna-leta-pod-psa.md)
+- [Obsluhoval jsem anglickeho krale](Obsluhoval-jsem-anglického-krále.md)
+- [Modlitba pro katerinu Horovitzovou](Modlitba-pro-katerinu-horovitzovou.md)
